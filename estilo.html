@@ -66,9 +66,37 @@
             </p>
 
             
+        <label for="instituicao">onde voce foca seus estudos?</label><br>
+        <select id="instituicao" name="instituicao"></select>
+        <optgroup label="ensino tecnico e regular">
+            <option value="escola-publica">Escola Pública Estadual</option>
+          <option value="etc">Escola tecnica</option>
+        </optgroup>
+        <optgroup label="projetos de ensino superior">  
+            <Option value="ong">fabricas de culturas/ong local</Option>
+            <option value="cursinho">cursinho popular</option>
 
+        </select>
+        <p>
+            <label for="acessorios">quais acessorioscompletam o seu kit</label><br>
+            <select id="acessorios" name="acessorios"multiple size="4"></select>
+            <option value="colar">colar de prata</option>
+             <option value="brinco">brinco de ouro</option>
+              <option value="bone">bone de marca</option>
+               <option value="pulseira">pulseira de ouro💰</option>
+        </p>
+        <p>
+            <label for="notaestilo">de 0 á 10, o quanto a moda representa sua identidade?</label>
+            <input type="range" id="notaestilo" name="notaestilo" min="0" max="10" value="5">
+            <span>notas selecionadas:
+                <output name="resultadonota" for="notaestilo">5</output>
+            </span>
+
+        </p>
+        </optgroup>
         </form>
     </div>
+    <button type="enviar">enviar</button>
 
     <hr>
     <p>Aula de HTML Básico - Criado com a Quebrada</p>
